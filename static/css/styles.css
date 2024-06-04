@@ -15,10 +15,36 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 h1 {
@@ -27,8 +53,17 @@ h1 {
     color: #1565c0; /* Same nice blue color */
 }
 
-/* Project Styles */
-.project {
+h2 {
+    color: #1565c0; /* Same nice blue color */
+    text-align: center;
+    margin-top: 40px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.project, .feature {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -36,21 +71,46 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
-.project h2 {
+.project h2, .feature h3 {
     margin-top: 0;
     color: #1565c0; /* Same nice blue color */
 }
 
-.project p {
+.project p, .feature p {
     margin-bottom: 10px;
 }
 
-.project a {
-    color: #1565c0; /* Same nice blue color */
+.project a, .button {
+    color: #fff;
+    background-color: #1565c0; /* Same nice blue color */
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.project a:hover {
-    color: #0d47a1; /* Darker shade of blue on hover */
+.project a:hover, .button:hover {
+    background-color: #0d47a1; /* Darker shade of blue on hover */
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1565c0; /* Same nice blue color */
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
