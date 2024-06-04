@@ -48,7 +48,7 @@ This project was inspired by the need for efficient and user-friendly applicatio
   - Nnenna Njoku <nnennanjoku08@gmail.com>
 
 - **Team Member 2**
-  - Ibraihim Fuhad Suma <Ifuhad622@gmail.com>
+  - Ibraihim Fuhad Suma <ifuhad007@gmail.com>
 
 View the [GitHub repository](https://github.com/Nenenj?tab=repositories) for this project.
 
