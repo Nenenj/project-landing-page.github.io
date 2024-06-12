@@ -1,0 +1,5 @@
+# _config.yml
+title: My Projects
+description: A portfolio landing page for showcasing my projects.
+baseurl: "/project-landing-page.github.io"
+url: "https://nenenj.github.io"
